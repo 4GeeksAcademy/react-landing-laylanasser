@@ -12,8 +12,10 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Cards />
+      <div className="container px-4 px-lg-5">
+        <Hero />
+        <Cards />
+      </div>
       <Footer />
     </div>
   );

@@ -3,9 +3,9 @@ import React from "react";
 
 const Hero = () => {
     return (
-  <header class="bg-light py-5">
+  <header class="bg-secondary py-5">
   <div class="container px-4 px-lg-5 my-5">
-    <div class="row gx-4 gx-lg-5 justify-content-center">
+    <div class="row gx-4 gx-lg-5">
       <div class="col-lg-8 col-xl-7">
         <h1 class="display-4 fw-bold">Hola a todos!</h1>
         <p class="lead mb-4">
